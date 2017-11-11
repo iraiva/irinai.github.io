@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript">
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"type="text/javascript">
+
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <style media="screen">
+    .heading{
+font-size:45px;
+}
+
+.main{
+background:url(https://www.ilovepdf.com/images/06.jpg);
+height:100vh;
+}
+
+.centered{
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+flex-direction:column;
+}
+
+.about{
+background:#dcc5ea;
+height:100vh;
+}
+
+.strong-sides{
+height:50vh;
+padding:45px;
+}
+
+.glyphicon{
+font-size:50px;
+}
+
+.pics{
+height:110vh;
+}
+
+.contacts{
+height:100vh;
+background:#b2b1d3;
+}
+
+.menu {
+position: fixed;
+top: 0;
+background: white;
+z-index: 1000;
+}
+    </style>
+  </head>
+  <body>
+    <div class="centered main" id="main">
+  <ul class="nav nav-pills menu">
+  <li><a href="#">Home</a></li>
+  <li><a href="#about">About me</a></li>
+  <li><a href="#strong-sides">My strong sides</a></li>
+  <li><a href="#pics">Pics</a></li>
+  <li><a href="#contacts">Contacts</a></li>
+</ul>
+  <h1 class="heading">
+    Welcome!
+  </h1>
+</div>
+
+<div class="about centered" id="about">
+  <h2 class="about-heading">
+   Video I like
+  </h2>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/h4rZE_J1beA" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="strong-sides container" id="sides">
+  <div class="row">
+    <div class="col-sm-4 centered">
+      <span class="glyphicon glyphicon-certificate"></span>
+      <h3 class="side-heading">Opened for the new knowledge</h3>
+      <p class="description">It's like a necessity for me to get new information and knowledge!</p>
+    </div>
+    <div class="col-sm-4 centered">
+      <span class="glyphicon glyphicon-film"></span>
+      <h3 class="side-heading">I like art!</h3>
+      <p class="description">I study graphic design and like to create!</p>
+    </div>
+    <div class="col-sm-4 centered">
+      <span class="glyphicon glyphicon-picture"></span>
+      <h3 class="side-heading">I like photography!</h3>
+      <p class="description">It's like a necessity for me to get new information and knowledge!</p>
+    </div>
+  </div>
+</div>
+
+<div class="pics" id="pics">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/18198235_1761227800622808_6316112477176040210_n.jpg?oh=4486b2577175a2cbd4e2f9687b6a537b&oe=5A6B5B44" alt="">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/16195870_1672052406207015_3220077441269259141_n.jpg?oh=bf3ce31a59ce2fff3f41ce7f1a6043fe&oe=5AA88BCC" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/21751407_1897335437012043_1567525571537366887_n.jpg?oh=82bfd027a69638fd238fdf89d71494ec&oe=5A9FC50C" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+
+<div class="contacts centered" id="contacts">
+  <h3>
+    Here you can find me
+  </h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143173.89063454527!2d26.397132685495905!3d55.89576299613355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c29430ff01c9db%3A0x400cfcd68f307f0!2z0JTQsNGD0LPQsNCy0L_QuNC70YE!5e0!3m2!1sru!2slv!4v1510406312183" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+
+
+  </body>
+</html>
